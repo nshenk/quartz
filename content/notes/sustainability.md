@@ -10,4 +10,4 @@ An ounce of prevention is only worth a pound of cure if you know exactly what to
 
 Problem solving ability > sustainability.
 
-Predictions of future problems can't take into account solutions that will be developed along the way, and thus all projections of doom are null.
+Predictions of future problems can't take into account solutions that will be developed along the way, and thus all projections of doom are empty.
