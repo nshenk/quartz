@@ -1,7 +1,8 @@
 <div class="content-list">
-  <div style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin: 2rem 0 0;
+  padding: 2rem auto 1rem;">
     <h3>{{ i18n "recent_notes" }}</h3>
-    <a href="/notes" class="see-all-button">See all notes</a>
+    <a href="./notes" class="see-all-button">See all notes</a>
   </div>
   <!--
   You can also configure this to find related pages!
@@ -10,6 +11,6 @@
   https://gohugo.io/content-management/related/
   -->
   {{$notes := .Site.RegularPages.ByLastmod.Reverse}}
-  {{partial "page-list.html" (first 3 $notes)}}
+  {{partial "page-list.html" (first 10 $notes)}}
 </div>
 
