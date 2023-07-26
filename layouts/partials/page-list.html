@@ -10,7 +10,7 @@
                     {{partial "date-fmt.html" .}}
                 </p>
                 <hr class="note-divider">
-                <p class="note-content">{{- .Content | markdownify -}}</p>
+                <div class="note-content">{{- .Content | markdownify -}}</div>
                 <ul class="tags">
                     {{ range (.GetTerms "tags") }}
                     <li><a href="{{ .Permalink }}">{{ .LinkTitle | title}}</a></li>
