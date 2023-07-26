@@ -641,9 +641,12 @@ mark {
 }
 
 .note-content {
-    font-style: italic;
     padding: 15px;
     padding-top: 0; /* Remove padding at the top to avoid extra space below the line */
+}
+
+.note-content p {
+    margin-bottom: 1em;
 }
 
 .note-divider {
