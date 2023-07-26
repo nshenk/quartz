@@ -630,15 +630,27 @@ mark {
     border-radius: 5px;
 }
 
+.desc {
+    padding: 15px;
+    padding-bottom: 0; /* Remove padding at the bottom to avoid extra space above the line */
+}
+
+.meta {
+    padding: 15px;
+    padding-top: 0; /* Remove padding at the top to avoid extra space below the line */
+}
+
 .note-content {
     font-style: italic;
-    margin: 15px;
+    padding: 15px;
+    padding-top: 0; /* Remove padding at the top to avoid extra space below the line */
 }
 
 .note-content p {
-    margin: 15px;
+    margin-bottom: 1em;
 }
 
 .note-divider {
     border-top: 1px solid #ddd;
+    margin: 5px 0; /* Adjust the vertical margin to control space above and below the line */
 }
