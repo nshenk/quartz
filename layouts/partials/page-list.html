@@ -2,19 +2,22 @@
     {{- range . -}}
     <li class="section-li">
         <div class="section">
-            <p class="meta">
-                {{partial "date-fmt.html" .}}
-            </p>
-            <div class="desc">
-              <h3><a href="{{ .Permalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+            <div class="note-box">
+                <p class="meta">
+                    {{partial "date-fmt.html" .}}
+                </p>
+                <div class="desc">
+                  <h3><a href="{{ .Permalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+                  <p class="note-content">{{- .Content | markdownify -}}</p>
+                </div>
+                <ul class="tags">
+                    {{ range (.GetTerms "tags") }}
+                    <li><a href="{{ .Permalink }}">{{ .LinkTitle | title}}</a></li>
+                    {{ end }}
+                </ul>
             </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                {{ range (.GetTerms "tags") }}
-                <li><a href="{{ .Permalink }}">{{ .LinkTitle | title}}</a></li>
-                {{ end }}
-            </ul>
         </div>
     </li>
     {{- end -}}
 </ul>
+
