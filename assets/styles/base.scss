@@ -225,12 +225,6 @@ article {
     display: inline-block;
     margin: 0.4em 0.2em;
   }
-
-  & > li > a {
-    border-radius: 8px;
-    border: var(--outlinegray) 1px solid;
-    padding: 0.2em 0.5em;
-  }
 }
 
 .backlinks a {
