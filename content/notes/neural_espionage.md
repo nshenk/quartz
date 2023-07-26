@@ -2,7 +2,7 @@
 title: "Neural Espionage"
 ---
 
-I recently had a conversation with a friend and prolific Twitter user who said he had trained GPT-3.5 on all of his tweets, and then talked to it. The fine-tuned Large Language Model (LLM) generated ideas that he had had before, but had never written down anywhere. I recently had a similar experience using my own Twitter account as training material. Spooky to say the least.
+I recently had a conversation with a friend and prolific Twitter user who said he had trained GPT-3.5 on all of his tweets, and then talked to it. The fine-tuned Large Language Model (LLM) generated ideas that he had had before, but had never written down anywhere. I recently had a similar experience using my own writing as training material. Spooky to say the least.
 
 
 
