@@ -10,9 +10,6 @@
     <article>
         {{partial "toc.html" .}}
         {{partial "textprocessing.html" . }}
-        <h2>Using this website</h2>
-        {{ $howto := .Site.GetPage "../content/notes/howto.md" }}
-        {{partial "textprocessing.html" (dict "context" $howto) }}
     </article>
       <div class="page-end" id="footer">
 
