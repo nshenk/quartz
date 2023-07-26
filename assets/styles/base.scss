@@ -172,10 +172,6 @@ blockquote {
     & a {
       background-color: transparent !important;
     }
-
-    & a[href$="#"], &.active a {
-      opacity: 0.2;
-    }
   }
 }
 
