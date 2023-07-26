@@ -196,7 +196,6 @@ article {
 
     &.internal-link {
       text-decoration: none;
-      background-color: transparentize(#8f9fa9, 0.85);
       padding: 0 0.1em;
       margin: auto -0.1em;
       border-radius: 3px;
@@ -626,7 +625,7 @@ mark {
 
 .note-box {
     border: 1px solid #ddd;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -642,10 +641,6 @@ mark {
 
 .note-content {
     padding: 15px;
-}
-
-.note-content p {
-    margin-bottom: 1em;
 }
 
 .note-divider {
