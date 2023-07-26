@@ -12,4 +12,4 @@ Problem solving ability > sustainability.
 
 Predictions of future problems can't take into account solutions that will be developed along the way, and thus all projections of doom are empty.
 
-[first principles](notes/firstprinciples)
+[first principles](firstprinciples.md)

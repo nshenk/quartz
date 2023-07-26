@@ -10,9 +10,8 @@ This website is a new project. It can be thought of as a digital garden for my t
 
 # Using this website
 
-This website contains my notes. You can navigate in several ways:
+This website contains my notes. Blue text are links. You can navigate in several ways:
 
 - View all notes sorted by recency at [/notes/](./notes/)
-- Use the interactive graph below
+- Use the interactive graph of the entire website below
 - Do a full-text search using the search bar at the top right
-- Anything blue is a link
